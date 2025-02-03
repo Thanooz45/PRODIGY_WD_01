@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Responsive Landing Page</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
     <link rel="stylesheet" href="home.css">
-    
-
 </head>
 <body>
-    <Div class="homediv">
-        <Div class="hometab" >
-        
-           
-            <a href="page1.html"><button class="btn btn1 ">page1</button></a>
-            <a href="page2.html"><button class="btn btn2">page2</button></a>
-            <a href="page3.html"><button class="btn btn3">page3</button></a>
+    <header id="tophead">
+        <h1>Welcome to My Landing Page</h1>
+        <nav>
+            <ul>
+                <li><button id="homebtn" class="hb" onclick="fun1()">Home</button></li>
+                <li><button id="aboutbtn" class="ab"  onclick="fun2()">about</button></li>
+                <li><button id="servicesbtn" class="sb" onclick="fun3()">services</button></li>
+                <li><button id="contactbtn" class="cb" onclick="fun4()">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
     
-        </Div>
-        <div class="homela">
-            <h1>Task-01</h1>
-        </div>
-    </Div>
+   <p id="paratab" class="paraele"></p>
     
-    
-    
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
     
     <script src="script.js"></script>
 </body>
